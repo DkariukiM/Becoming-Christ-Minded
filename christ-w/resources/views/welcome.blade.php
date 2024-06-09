@@ -283,17 +283,6 @@
                             <div class="social-links">
 
 
-
-
-
-
-
-
-
-
-
-
-
                                 <a class="social-links__link" href="https://www.facebook.com" target="_blank"
                                     rel="noopener">
                                     <span id="hs_cos_wrapper_module_16194966585901_"

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PagesController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -15,3 +16,9 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+//to blogs page
+Route::get('/blogs', [PagesController::class, 'blog'])->name('blogs');
+//to contact page
+Route::get('/contact-us', [PagesController::class, 'contact'])->name('contact');
